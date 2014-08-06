@@ -27,6 +27,15 @@ function get_relative_image_path_shortcode($args) {
 	return $upload_dir.'/'.$args['file'];
 }
 
+//syntax: [page_path id="..."]
+
+add_shortcode('page_path', function($args) {
+    $id = $args['id'];
+    return get_permalink($id);
+});
+
+
+
 
 //google fonts 
 function load_fonts() {

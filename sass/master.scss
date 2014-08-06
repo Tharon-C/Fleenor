@@ -175,7 +175,6 @@ banner
 }
 
 .header-form {
-  margin:10px 0;
   background:$gradient-2; 
   padding:10px;
   color:$grey-1;
@@ -277,14 +276,20 @@ footer {
   }
 }
 
+.paid-for {
+  border:solid white 1px;
+  display:inline-block;
+  padding:5px 20px;
+  margin-bottom:10px;
+}
 
 /*==================================================================
    =BANNER
    ================================================================= */
    .caption-1 {
-    margin-top:200px;
+    margin-top:150px;
     margin-bottom:20px;
-    width:440px;
+    width:400px;
    }
 
 
@@ -372,7 +377,7 @@ footer {
   display:block;
   font-family:$font-1;
   font-weight: 400;
-  font-size:63px;
+  font-size:98px;
   text-transform: uppercase;
 }
 

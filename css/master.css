@@ -132,7 +132,6 @@ banner
   background: linear-gradient(to bottom, #fbf7f0 38%, #e2dfd5 100%); }
 
 .header-form {
-  margin: 10px 0;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #3b94dd), to(#014d8e));
   background: -webkit-linear-gradient(top, #3b94dd -1%, #014d8e 100%);
   background: linear-gradient(to bottom, #3b94dd -1%, #014d8e 100%);
@@ -213,13 +212,19 @@ footer {
   footer a {
     color: white; }
 
+.paid-for {
+  border: solid white 1px;
+  display: inline-block;
+  padding: 5px 20px;
+  margin-bottom: 10px; }
+
 /*==================================================================
    =BANNER
    ================================================================= */
 .caption-1 {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 20px;
-  width: 440px; }
+  width: 400px; }
 
 /*======================================================================
     =HOMEPAGE CONTENT
@@ -291,7 +296,7 @@ footer {
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 63px;
+  font-size: 98px;
   text-transform: uppercase; }
 
 .headline-3 {

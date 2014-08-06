@@ -3,7 +3,7 @@
             	<div class="page-wrapper txt-c clear">
             		<span class="follow">Follow me !</span> 
             		<span class="share"> Share with your friends</span>
-            		<a href="#" class="btn-2 button upcase"><i class="fa fa-facebook facebook-btn"></i> on Facebook</a>
+            		<a href="https://www.facebook.com/camposfleenorfortusd" class="btn-2 button upcase"><i class="fa fa-facebook facebook-btn"></i> on Facebook</a>
             	</div>
                 
 
@@ -13,9 +13,9 @@
 			</div>
 
     <footer>      
-          <p class="copyright">
-                Paid for by Debe for School Board Campaign Committee | Website Design by Tagline.
-				</p>  
+          <section class="page-wrapper copyright">
+               <div class="paid-for">PAID FOR BY <br>CAMPOS-FLEENOR FOR TUSD</div><br> <a href="http://taglinegroup.com">Website Design</a> by Tagline.
+				</section>  
 			</footer>	
 		</div>
 		<!-- /wrapper -->
