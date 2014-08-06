@@ -1,5 +1,6 @@
 /* W3C */
 /* W3C */
+/* W3C */
 .quote {
   background: #F2F2F2;
   padding: 10px;
@@ -62,10 +63,11 @@ logo
 ==================================================================== */
 .logo {
   float: left;
-  width: 200px;
+  width: 270px;
   display: block;
-  position: relative;
-  padding: 10px; }
+  position: absolute;
+  padding: 10px;
+  top: 10px; }
   .logo a:hover {
     color: black !important; }
 
@@ -125,7 +127,9 @@ banner
 ===============================================================*/
 /* banner */
 .banner {
-  background: #f3eeee; }
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(38%, #fbf7f0), to(#e2dfd5));
+  background: -webkit-linear-gradient(top, #fbf7f0 38%, #e2dfd5 100%);
+  background: linear-gradient(to bottom, #fbf7f0 38%, #e2dfd5 100%); }
 
 .header-form {
   margin: 10px 0;
@@ -213,7 +217,7 @@ footer {
    =BANNER
    ================================================================= */
 .caption-1 {
-  margin-top: 60px;
+  margin-top: 200px;
   margin-bottom: 20px;
   width: 440px; }
 
