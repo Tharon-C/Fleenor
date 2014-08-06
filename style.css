@@ -47,6 +47,10 @@ article li {margin-bottom: 20px;}
 
 img {display:block;max-width: 100%;vertical-align:bottom;}
 
+sup {
+  font-size:.5em;
+}
+
 /*helper classes*/
 .inlineblk{display:inline-block;}
 .p-l {float:left;}
