@@ -1,3 +1,5 @@
+/* W3C */
+/* W3C */
 .quote {
   background: #F2F2F2;
   padding: 10px;
@@ -36,6 +38,7 @@ dt:nth-last-child(2) {
   position: relative;
   margin: auto;
   max-width: 1200px;
+  min-width: 1100px;
   width: 100%;
   padding-right: 20px;
   padding-left: 20px; }
@@ -45,10 +48,7 @@ header
 ==========================================================*/
 /* business information across the top of header */
 .business-info {
-  background: #0386C9;
   padding: 5px; }
-  .business-info a {
-    color: #00A9FF; }
   .business-info .widget_text {
     color: white;
     float: right; }
@@ -62,7 +62,7 @@ logo
 ==================================================================== */
 .logo {
   float: left;
-  width: 150px;
+  width: 200px;
   display: block;
   position: relative;
   padding: 10px; }
@@ -79,29 +79,27 @@ nav
   padding: 0;
   display: block;
   position: relative;
-  z-index: 10;
-  background: #00A9FF;
-  border-bottom: solid 1px lightgrey; }
+  z-index: 10; }
   .nav ul {
     margin: 0;
-    padding: 0;
+    padding-top: 10px;
     float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0; }
+    position: relative;
+    right: 0; }
   .nav li {
     position: relative;
     display: inline-block;
     margin-left: -4px; }
     .nav li a {
+      color: #1f1f1f;
       display: block;
-      color: white;
-      padding: 18px 30px;
+      padding: 10px 20px;
       text-transform: uppercase;
       font-size: 14px;
       position: relative; }
   .nav a:hover {
-    background: #0386C9; }
+    color: white;
+    background: #74c14c; }
   .nav ul.sub-menu {
     display: none; }
     .nav ul.sub-menu a {
@@ -125,30 +123,71 @@ nav
 /*=============================================================
 banner
 ===============================================================*/
-.banner-home {
-  /* height: 420px; */
-  background: url('./img/bkg-1.jpg');
-  background-size: cover; }
+/* banner */
+.banner {
+  background: #f3eeee; }
+
+.header-form {
+  margin: 10px 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #3b94dd), to(#014d8e));
+  background: -webkit-linear-gradient(top, #3b94dd -1%, #014d8e 100%);
+  background: linear-gradient(to bottom, #3b94dd -1%, #014d8e 100%);
+  padding: 10px;
+  color: white; }
+
+/* banner form */
+.ajax-loader {
+  display: none; }
+
+.informed {
+  text-align: right;
+  font-size: 24px;
+  font-family: 'Pacifico', cursive; }
 
 /* ===============================================================
 footer items
 =================================================================== */
 .footer-items {
-  background: #e5e5e5;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #3b94dd), to(#014d8e));
+  background: -webkit-linear-gradient(top, #3b94dd -1%, #014d8e 100%);
+  background: linear-gradient(to bottom, #3b94dd -1%, #014d8e 100%);
   padding: 25px 0;
   border-top: solid 1px #F2F2F2;
   color: #525252; }
   .footer-items ul {
     padding-left: 0; }
+  .footer-items .share {
+    color: white;
+    font: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0 10px;
+    text-transform: uppercase; }
+  .footer-items .follow {
+    font-family: 'Pacifico', cursive;
+    color: #fbf949;
+    font-size: 32px; }
+  .footer-items .facebook-btn {
+    font-size: 22px; }
   .footer-items .widget_nav_menu {
-    width: 33.3%;
-    float: left;
-    border-right: solid 1px #c2c2c2;
-    padding-left: 35px; }
-    @media (max-width: 45em) {
-      .footer-items .widget_nav_menu {
-        float: none;
-        width: 90%; } }
+    text-align: center; }
+    .footer-items .widget_nav_menu ul {
+      margin: 0;
+      padding-top: 10px;
+      position: relative;
+      right: 0; }
+    .footer-items .widget_nav_menu li {
+      position: relative;
+      display: inline-block;
+      margin-left: -4px; }
+      .footer-items .widget_nav_menu li a {
+        color: white;
+        display: block;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: relative; }
+    @media (max-width: 45em) { }
   .footer-items .widget_text {
     padding-left: 36px;
     width: 33.3%;
@@ -162,13 +201,29 @@ footer items
 footer 
 ================================================================*/
 footer {
-  background: #0386C9;
+  background: #003f75;
   text-align: center;
   color: white;
   padding: 10px;
   font-size: 12px; }
   footer a {
     color: white; }
+
+/*==================================================================
+   =BANNER
+   ================================================================= */
+.caption-1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 440px; }
+
+/*======================================================================
+    =HOMEPAGE CONTENT
+    ==========================================================================*/
+.img-down-town {
+  height: 350px;
+  background: url('../img/down-town.jpg');
+  background-size: cover; }
 
 /* ==========================================================================
    =COLOR
@@ -177,16 +232,16 @@ footer {
   height: 5em; }
 
 .color-1 {
-  background: #0386C9; }
+  background: blue; }
 
 .color-2 {
-  background: #00A9FF; }
+  background: #74c14c; }
 
 .color-3 {
-  background: #e5e5e5; }
+  background: #289bff; }
 
 .color-4 {
-  background: #F7A710; }
+  background: #003f75; }
 
 .color-5 {
   background: #9370E9; }
@@ -194,27 +249,71 @@ footer {
 .color-6 {
   background: #DDD5F8; }
 
+.grey-1 {
+  background: #eae9e9; }
+
+.gradient-2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #3b94dd), to(#014d8e));
+  background: -webkit-linear-gradient(top, #3b94dd -1%, #014d8e 100%);
+  background: linear-gradient(to bottom, #3b94dd -1%, #014d8e 100%); }
+
+/* ===========================================================================
+  objects
+  =========================================================================== */
+.box-1 {
+  border: solid 1px #003f75;
+  border-radius: 8px; }
+
 /* ===========================================================================
   typography
   =========================================================================== */
+.frame {
+  border-top: solid 3px darkgrey;
+  border-bottom: solid 3px darkgrey; }
+
 .headline-1 {
-  color: #00A9FF;
+  line-height: 1em;
+  color: #74c14c;
   display: block;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 53px; }
+  font-weight: 400;
+  font-size: 53px;
+  text-transform: uppercase; }
+
+.headline-2 {
+  line-height: 1em;
+  margin: none;
+  color: darkgrey;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 63px;
+  text-transform: uppercase; }
+
+.headline-3 {
+  line-height: 1em;
+  color: #74c14c;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 43px;
+  text-transform: uppercase; }
 
 .title-1 {
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 42px; }
+  font-size: 29px;
+  text-transform: uppercase; }
 
 .title-2 {
   display: block;
   font: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 22px; }
+
+.txt-white {
+  color: white; }
 
 /* ==========================================================================
    = User input
@@ -226,8 +325,9 @@ input, textarea {
   /* Use for styling text based form elements, like name, email, password. 
   Button/submit specific styles below, those will override */
   display: block;
-  padding: 0.5em;
-  margin-bottom: 0.75em;
+  padding: 6px;
+  margin-bottom: 0;
+  margin-top: 0;
   border: 0.1em solid #eee;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -238,49 +338,73 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: #0386C9; }
+  border-color: blue; }
 
 input[type='button'], input[type='submit'], button, .button {
   border: none;
   background: transparent;
   line-height: 1;
   cursor: pointer;
-  padding: 1em 1.5em;
+  padding: 10px 1.5em;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.btn-blc {
+  margin-top: 10px;
+  padding: 7px;
+  width: 250px;
   display: block;
-  margin-bottom: 0.75em;
-  margin-bottom: 0.75rem; }
+  text-align: center; }
 
 .btn-primary {
   color: white;
-  background: #00A9FF; }
+  background: #74c14c; }
 
 .btn-primary:hover {
-  background: #00A9FF; }
+  background: #74c14c; }
 
 .btn-primary:focus, .btn-primary:active {
-  background: #00A9FF; }
+  background: #74c14c; }
 
 .btn-secondary {
   color: white;
-  background: #F7A710; }
+  background: #003f75; }
 
 .btn-secondary:hover {
-  background: #F7A710; }
+  background: #003f75; }
 
 .btn-secondary:focus, .btn-secondary:active {
-  background: #F7A710; }
+  background: #003f75; }
 
 .btn-tertiary {
   font-size: 0.875em;
-  background: #e5e5e5; }
+  background: #289bff; }
 
 .btn-tertiary:hover {
-  background: #e5e5e5; }
+  background: #289bff; }
 
 .btn-tertiary:focus, .btn-tertiary:active {
-  background: #e5e5e5; }
+  background: #289bff; }
+
+.btn-1 {
+  color: white !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #a4e084), to(#5ea738)) !important;
+  background: -webkit-linear-gradient(top, #a4e084 -1%, #5ea738 100%) !important;
+  background: linear-gradient(to bottom, #a4e084 -1%, #5ea738 100%) !important; }
+
+.btn-1:hover {
+  color: white; }
+
+.btn-2 {
+  color: white;
+  background: #289bff; }
+
+.btn-2:hover {
+  color: white;
+  background: #003f75; }
 
 /* ==========================================================================
    =ADJECTIVES
@@ -305,6 +429,6 @@ input[type='button'], input[type='submit'], button, .button {
    ========================================================================= */
 .img-1 {
   padding: 10px;
-  background: lightgrey;
+  background: darkgrey;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.21);
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.21); }

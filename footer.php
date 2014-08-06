@@ -1,15 +1,20 @@
 			
             <div class="footer-items">
+            	<div class="page-wrapper txt-c clear">
+            		<span class="follow">Follow me !</span> 
+            		<span class="share"> Share with your friends</span>
+            		<a href="#" class="btn-2 button upcase"><i class="fa fa-facebook facebook-btn"></i> on Facebook</a>
+            	</div>
+                
+
                 <div class="page-wrapper clear">
-                   
-					<?php dynamic_sidebar('widget-area-1'); ?>
+                   <?php dynamic_sidebar('widget-area-1'); ?>
 				</div>
 			</div>
 
     <footer>      
           <p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
-                All rights reserved. Website Design by Tagline Movment Marketing.
+                Paid for by Debe for School Board Campaign Committee | Website Design by Tagline.
 				</p>  
 			</footer>	
 		</div>
