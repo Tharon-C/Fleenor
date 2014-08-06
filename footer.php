@@ -3,7 +3,7 @@
             	<div class="page-wrapper txt-c clear">
             		<span class="follow">Follow me !</span> 
             		<span class="share"> Share with your friends</span>
-            		<a href="https://www.facebook.com/camposfleenorfortusd" class="btn-2 button upcase"><i class="fa fa-facebook facebook-btn"></i> on Facebook</a>
+            		<a href="https://www.facebook.com/camposfleenorfortusd" target="_blank" class="btn-2 button upcase"><i class="fa fa-facebook facebook-btn"></i> on Facebook</a>
             	</div>
                 
 
