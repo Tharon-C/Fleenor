@@ -287,12 +287,29 @@ footer {
    =BANNER
    ================================================================= */
    .caption-1 {
+    margin-top:120px;
+    margin-bottom:20px;
+    width:300px;
+   }
+
+   .caption-2 {
     margin-top:150px;
     margin-bottom:20px;
-    width:400px;
+    width:350px;
+   }
+
+   .caption-2 .headline-1 {
+    font-size:32px;
+   }
+
+   .caption-2 .headline-2 {
+    font-size:50px;
    }
 
 
+   .hero-1 {
+    width:350% !important;
+   }
 
 
    /*======================================================================
@@ -366,7 +383,7 @@ footer {
   display:block;
   font-family:$font-1;
   font-weight: 400;
-  font-size:53px;
+  font-size:43px;
   text-transform: uppercase;
 }
 
@@ -377,7 +394,7 @@ footer {
   display:block;
   font-family:$font-1;
   font-weight: 400;
-  font-size:98px;
+  font-size:78px;
   text-transform: uppercase;
 }
 

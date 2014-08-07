@@ -48,7 +48,7 @@
                  </div>
 					</nav>
 					<!-- /nav -->
-					<div class="page-wrapper pad-30px">
+					<div class="page-wrapper"><!--
 						<div class="col-1-2 p-l pad-l-50px">
 							<div class="frame caption-1 txt-c">
 								<span class="headline-1">All Students</span>
@@ -58,8 +58,8 @@
 						</div>
 						<div class="col-1-2 p-l">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/hero.png" alt="Debe Campos-Fleenor">
-						</div>
-
+						</div>-->
+						<?php echo do_shortcode("[layerslider id='1']"); ?>
 					</div>
 
 				</section>
